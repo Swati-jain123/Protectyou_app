@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFDD0"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/abotus"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:gravity="start"
+            android:justificationMode="inter_word"
+            android:text="In today's time, no one is safe, may be it's child or elder, anyone is falling victim to any accident or some other incident.That's why we have created an app named ProtectYou.With the help of this app, when you feel helpless or are in case of any trouble, you can get the help of the Emergency number which are provided in this app, you can also contact your nearest police station or hospital by this app. We also included the feature by which user can track their current location and share with another person.
+The Purpose of this app named ProtectYou is to provide helps to the user at a right time with an emergency."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#795C34"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:autoSizeTextType="uniform"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="670dp"
+            android:gravity="center"
+            android:text="Contact Us "
+            android:padding="10sp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#0A1172"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#00000f"
+            android:layout_marginTop="670dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#00000f"
+            android:layout_marginTop="730dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:layout_marginTop="740dp"
+            android:gravity="start"
+            android:text="+1800-345-785                             protectyou@gmail.com                          NH-46 Near Thana Satanwada Shivpuri Madhya Pradesh"
+            android:layout_marginLeft="20sp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#354A21"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#00000f"
+            android:layout_marginTop="930dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="50dp"
+
+            />
+
+
+
+    </FrameLayout>
+
+</ScrollView>
+
+</RelativeLayout>

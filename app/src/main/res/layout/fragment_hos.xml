@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFDD0"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Near By Hospital"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#0A1172"
+                />
+            <ImageView
+                android:id="@+id/maphos"
+                android:layout_width="wrap_content"
+                android:layout_height="380dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="0.7sp"
+                android:src="@drawable/hospital"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/ic_border_blue"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="410dp"
+                android:gravity="center"
+                android:text="CLICK HERE FOR LOCATION"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0A1972"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="480dp"
+                android:gravity="center"
+                android:text="Quick Support"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0A1972"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="510dp"
+                android:gravity="start"
+                android:text="Shrimant Rajmata Vijayaraje Scindia
+Medical College and Hospital Shivpuri
+Address:Kattha Mill,
+Gwalior Bypass Highway
+Shivpuri, Madhya Pradesh 473551
+Contact number: 07492-292158"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="685dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="710dp"
+                android:gravity="start"
+                android:text="Awadh Hospital Shivpuri
+Address:Shiv Sakati Nagar Near T.v Tower
+Near Head Post Office,  Shivpuri, Madhya Pradesh 473551
+
+
+Contact number:769488696
+"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="850dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="870dp"
+                android:gravity="start"
+                android:text="Mm Hospital Shivpuri
+Address:Shivpuri City, Shivpuri - 473551, Hathi Khana, Dakhar Mohalla
+
+Contact number:9300010670
+"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"
+
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="1000dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1020dp"
+                android:gravity="start"
+                android:text="Siddhivinayak Multispeciality Hospital Shivpuri
+                                                                       Address:
+New
+Bus Stand
+Shivpuri Road
+Shivpuri, Madhya Pradesh 473551
+Contact number:09425400909
+
+"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"
+
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="1170dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1190dp"
+                android:gravity="start"
+                android:text="District Hospital Shivpuri
+Address:
+266 Rampur House, Shivpuri, Madhya Pradesh 473551
+Contact number:094251 37559
+
+"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"
+
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="1310dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1330dp"
+                android:gravity="start"
+                android:text="Pradhan Cardiac and Dental Care Hospital Shivpuri
+                                                                       Address:
+Shankar Colony, Near ara Machine, Shivpuri, Madhya Pradesh 473551
+
+Contact number:08965873068
+"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"
+
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="1500dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1510dp"
+                android:gravity="start"
+                android:text="Navjeevan Hospital Shivpuri
+                Address:Ab Road, Pohari Bus Stand, Dhakar Mohalla, Shivpuri, Madhya Pradesh,India
+"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"
+
+                />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="1640dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginBottom="50dp"
+
+                />
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

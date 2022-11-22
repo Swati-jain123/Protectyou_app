@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#FFFDD0"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/fragment_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Near By Police Station"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#0A1172"
+                />
+            <ImageView
+                android:id="@+id/map"
+                android:layout_width="wrap_content"
+                android:layout_height="340dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:padding="0.7sp"
+                android:src="@drawable/police"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/ic_border_blue"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="360dp"
+                android:gravity="center"
+                android:text="CLICK HERE FOR LOCATION"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0A1972"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="455dp"
+                android:gravity="center"
+                android:text="Quick Support"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#0A1972"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="490dp"
+                android:gravity="start"
+                android:text="Police Station Kotwali Shivpuri
+CMH2+4VX, Court Road, Shri Ram Colony, opp. Post Office, Shivpuri, Madhya Pradesh 473551                                                                                                                                        Contact number: 07492 234 155"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="630dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="660dp"
+                android:gravity="start"
+                android:text="Dehat Thana Shivpuri
+Address:CM86+J2Q, Govind Pura, Shivpuri, Madhya Pradesh 473551"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="750dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="770dp"
+                android:gravity="start"
+                android:text="Police Station Thana Yadav Gali Shivpuri
+Address:G887+JJW, Yadav Gali, Shivpur, Madhya Pradesh 461223"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"
+
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="870dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="890dp"
+                android:gravity="start"
+                android:text="Physical Thana Shivpuri
+Address:CMG7+V96, Indira Colony, Shivpuri, Madhya Pradesh 473551
+Contact no.-07492 232 100"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"
+
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="1020dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1040dp"
+                android:gravity="start"
+                android:text="Police Chowki Lukwasa
+Address:Lukvasa, Shivpuri, NH-3, Mumbai Agra Highway, AB Road, Shivpuri, Shivpuri, Madhya Pradesh 473885 of police chowki lukwasa shivpuri
+"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"
+
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="1200dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1220dp"
+                android:gravity="start"
+                android:text="Rannod police station
+Address: 3VCG+P92, Pichhore - Rannod Rd, Rannod, Madhya Pradesh 473781
+"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"
+
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="1320dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1340dp"
+                android:gravity="start"
+                android:text="Satanwada police station
+Address:National Highway 3, Satanwada Kalan, Satanwada, Shivpuri - 473551
+Contact no.-07492 232 100"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"
+
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="1480dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1500dp"
+                android:gravity="start"
+                android:text="Police station sirsod
+Address:Sirsod, Shivpuri - 473551
+Contact no.-07490 232 100"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"
+
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="1600dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1620dp"
+                android:gravity="start"
+                android:text="Surwaya Police Station
+Address: CR7Q+7J2, Shivpuri, Madhya Pradesh 473551
+Contact no.-07492 280 400"
+                android:layout_marginLeft="20sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#354A21"
+                android:layout_marginRight="20sp"
+
+                />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#00000f"
+                android:layout_marginTop="1780dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginBottom="50dp"
+
+                />
+
+        </FrameLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

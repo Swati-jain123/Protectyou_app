@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:andorid="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFDD0"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:id="@+id/continer">
+    <TextView
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Welcome To ProtectYou"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#0A1172"
+        />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:src="@drawable/image"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:gravity="start"
+            android:justificationMode="inter_word"
+            android:text="ProtectYou is one of the good options when it comes to safety apps for women. The app is designed keeping in mind the concept of personal safety. It incorporates all the essential features such as GPS tracking, emergency contact numbers, directions to safe locations etc."
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#795C34"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:autoSizeTextType="uniform"
+                     />
+
+        <Button
+            android:id="@+id/aboutbutton"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="105sp"
+            android:layout_marginTop="640dp"
+            android:layout_marginRight="105sp"
+            android:background="#808080"
+            android:gravity="center"
+            android:text="Click Here"
+            android:textColor="#fcfaf4"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="710dp"
+            android:gravity="center"
+            android:text="Our Features"
+            android:padding="10sp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#0A1172"
+            />
+        <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#00000f"
+        android:layout_marginTop="710dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#00000f"
+            android:layout_marginTop="770dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="780dp"
+            android:gravity="center"
+            android:text="Mobile Helpline "
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#354A21"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="820dp"
+            android:gravity="start"
+            android:text="The helpline numbers in this application is provided so that a person in any emergency case is able to contact the authority as soon as possible. In this the helpline numbers are already embedded. By using this one can also dial a number so that it would be easy for them to contact their known ones.For more information click below "
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="20sp"
+            android:breakStrategy="high_quality"
+            android:background="@drawable/ic_border_black"
+            android:padding="10sp"
+
+            />
+        <Button
+            android:id="@+id/firstbutton"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:text="Click Here"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#fcfaf4"
+            android:layout_marginLeft="105sp"
+            android:layout_marginRight="105sp"
+            android:layout_marginTop="1120dp"
+            android:background="#808080"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1180dp"
+            android:gravity="center"
+            android:text="GPS Image Sender"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#354A21"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1220dp"
+            android:gravity="start"
+            android:text="This is designed to detect the exact location of a person and share the picture of the criminal . If a person is in trouble and for them it is difficult to explain their exact location than this will help to identify their location and provide them help as soon as possible.For more information : "
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/ic_border_black"
+            android:padding="10sp"
+            />
+        <Button
+            android:id="@+id/secondbutton"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:text="Click Here"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#fcfaf4"
+            android:layout_marginLeft="105sp"
+            android:layout_marginRight="105sp"
+            android:layout_marginTop="1500dp"
+            android:background="#808080"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1540dp"
+            android:gravity="center"
+            android:text="Near By Police Station"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#354A21"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1590dp"
+            android:gravity="start"
+            android:text="This feature will help the person to identify nearby police stations. It will play a major role in security of a person as it will be easy to contact the officials as early as possible without much efforts.For more information :"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/ic_border_black"
+            android:padding="10sp"
+
+
+            />
+
+        <Button
+            android:id="@+id/thirdbutton"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:text="Click Here"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#fcfaf4"
+            android:layout_marginLeft="105sp"
+            android:layout_marginRight="105sp"
+            android:layout_marginTop="1820dp"
+            android:background="#808080"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1880dp"
+            android:gravity="center"
+            android:text="Near By Hospitals"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#354A21"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1930dp"
+            android:gravity="start"
+            android:text="In today's era, it has become common to have accidents such as a health related issue and sometimes they happen suddenly and at that time no one is present to help us, then for that we made an application with the help of which we will give you information about all the hospitals and available doctors around the place of accident.through which you can easily contact them.The purpose of this feature of ours is to help you people without any problem.So that you can contact the doctors at the right time and get the right treatment.to take more advantage of this feature of ours or to know more about it click on the below button."
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/ic_border_black"
+            android:padding="10sp"
+
+            />
+
+
+
+        <Button
+            android:id="@+id/fourthbutton"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center"
+            android:text="Click Here"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#fcfaf4"
+            android:layout_marginLeft="105sp"
+            android:layout_marginRight="105sp"
+            android:layout_marginTop="2490dp"
+            android:background="#808080"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#00000f"
+            android:layout_marginTop="2550dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            />
+<!--        <View-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="1dp"-->
+<!--            android:background="#00000f"-->
+<!--            android:layout_marginTop="770dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            />-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2570dp"
+            android:gravity="center"
+            android:text="ThankYou For Visiting"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#354A21"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="#00000f"
+            android:layout_marginTop="2610dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            />
+
+    </FrameLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
